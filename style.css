@@ -400,8 +400,9 @@ nav .fas{
     #header{
         background-image: url(images/dark-wallpapers.jpg);
     }
-     .logo{
+     .logo a{
         margin-top: 10%;
+        font-size: 35px;
     }
     .header-text{
         margin-top: 60%;
@@ -452,8 +453,9 @@ nav .fas{
     .tab-links{
         flex-basis: 100%;
         margin-top: 20px;
-        font-size: 18px;
-        margin-right: 13.5px;
+        font-size: 17px;
+        font-weight: 800;
+        margin-right: 13px;
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
