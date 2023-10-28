@@ -8,10 +8,11 @@
     <title>My Portfolio - by Jaydeep</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/8e3fc6d141.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
-    <div id="header">
+    <div class="header">
         <div class="container">
             <nav>
                 <!--<img src="images/logo.jpg" class="logo">-->
@@ -27,8 +28,9 @@
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>UI/UX Designer, Web Developer.</p>
-                <h1>Hi, I'm <span>Jaydeep</span><br> Debnath From India.</h1>
+                <h3>Hello, It's Me</h3>
+                <h1>I'm <span>Jaydeep Debnath</span><br> From India.</h1>
+                <h3>And I'm a <span class="text"></span></h3>
             </div>
         </div>
     </div>
@@ -141,9 +143,9 @@
                     <div class="work">
                         <img src="images/work-2.png">
                         <div class="layer">
-                            <h3>Personal Portfolio Website</h3>
-                            <p>It is a Personal Portfolio Website design by Html, Css and Js</p>
-                            <a href="https://jaydeep-debnath.github.io/my-portfolio/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <h3>Weather Forecast App</h3>
+                            <p>It is a Weather app which can show live temperature according to time and also change background according to heat.</p>
+                            <a href="https://weather-forecast-app-jaydeep.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +194,17 @@
                 </p>
             </div>
         </div>
+        <a href="#" class="top"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
 
+        <script>
+            var typed = new Typed(".text", {
+                strings:["Frontend Developer.","Engineer.","Ui/Ux Designer.","Web Developer."],
+                typespeed:100,
+                backDelay:500,
+                backspeed:100,
+                loop:true
+            });
+        </script>
         <script>
             var tablinks = document.getElementsByClassName("tab-links");
             var tabcontents = document.getElementsByClassName("tab-contents");
