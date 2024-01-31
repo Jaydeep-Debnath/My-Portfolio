@@ -235,6 +235,10 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 
+.hidden-work-list {
+    display: none;
+}
+
 .work{
     position: relative;
     overflow: hidden;
